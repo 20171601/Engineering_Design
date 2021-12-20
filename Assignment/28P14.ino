@@ -18,9 +18,9 @@
 #define _DIST_ALPHA 0.5 //[20203118] DIST_ALPHA 값 설정
 
 // Servo range
-#define _DUTY_MIN 1200    //[3148]  서보의 가동 최소 각도(0)
-#define _DUTY_NEU 1350      //[3150] servo neutral position (90 degree)
-#define _DUTY_MAX 1400                // [3169] 서보의 최대 가동 각도(180º)
+#define _DUTY_MIN 1200    //[20213083]서보 각도의 최솟값 설정
+#define _DUTY_NEU 1350      // [20213090]서보 수평 각도 펄스 값
+#define _DUTY_MAX 1400                //  [20213081] 서보 각도의 최댓값
 
 // Servo speed control
 #define _SERVO_ANGLE 15 //[20203118] 최대 가동범위에 따른 목표 서보 회전각
@@ -33,9 +33,9 @@
 
 
 // PID parameters
-#define _KP 1.5      // [3158] 비례상수 설정
-#define _KD 65.0      // [3159] 미분제어 상수
-#define _KI 0.007     //[3157] 적분제어 상수
+#define _KP 1.5      // 비례상수 설정
+#define _KD 65.0      // 미분제어 상수
+#define _KI 0.007     // 적분제어 상수
 #define INTERVAL 20
 
 #define   // DELAY_MICROS * samples_num^2 의 값이 최종 거리측정 인터벌임. 넉넉하게 30ms 잡음.
