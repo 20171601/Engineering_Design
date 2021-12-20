@@ -31,6 +31,7 @@
 #define _INTERVAL_SERVO 20  // [20213099] 서보 주기 설정
 #define _INTERVAL_SERIAL 100  // [20213099] 시리얼 표시 주기 설정
 
+
 // PID parameters
 #define _KP 1.5      // [3158] 비례상수 설정
 #define _KD 65.0      // [3159] 미분제어 상수
